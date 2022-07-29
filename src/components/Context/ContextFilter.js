@@ -36,7 +36,7 @@ const filterReduce = (state, action) => {
       };
     case "Seats":
       return {
-        ...filterItemsHandler("Beds")
+        ...filterItemsHandler("Seats")
       };
     case "TV Stand":
       return {

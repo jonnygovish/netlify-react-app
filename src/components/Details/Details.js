@@ -40,8 +40,7 @@ export default function Details() {
             onClick={() =>
               dispath({ type: "ADD_TO_BASKET", payload: datas.id })
             }
-            className="card_buy"
-          >
+            className="card_buy">
           add to cart
           </button>
         </div>
