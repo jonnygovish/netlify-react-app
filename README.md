@@ -25,8 +25,8 @@ Feature
 - calculation Total Price
 
 Find link to the live site here  https://github.com/AlnOo/3LA-Furniture-Shop
-Project screen shots:
-
+Project screen shots: ![home page!](public/images/Snapshot.jpeg)
+Project screen shots: ![home page!](public/images/snapshot2.jpeg)
 
 
 Development

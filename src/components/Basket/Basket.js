@@ -15,7 +15,7 @@ export default function Basket() {
     <>
       <div className="favorite_container_linkBar">
         <div className="favorite_linkBar">
-          <span>Buy Basket</span>
+          <span>My Basket</span>
           <Link className="favorite_backLink" to={"/"}>
             <HiArrowRight />
             Products page
