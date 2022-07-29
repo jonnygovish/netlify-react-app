@@ -1,10 +1,8 @@
 3LA store website
 description
 
-This is a furniture website landing page that showcases the current featured products of the store. the landing page targets to attract the customer attention to the featured products. Website should be also able to provide live weather updates to the user to view using openweather apis
-Installation requirements
+This is a Furniture shop website build with react.js that showcases the current featured products of the store. the landing page targets to attract the customer attention to the featured products.
 
-You don't need to install anything you only need internet connection
 Technologies used
 
 HTML CSS JS React
@@ -25,18 +23,28 @@ Feature
 - Add, Delete, Clear Basket, Decrease, Increase, Product in Basket
 - Show Number of products In Badge
 - calculation Total Price
-- Offer Code
-- calculation Price After confirmation offer code
 
 Find link to the live site here  https://github.com/AlnOo/3LA-Furniture-Shop
-sample page below:
+Project screen shots:
 
 
 
 Development
 
 Any additional code development to improve the website is welcome. kindly fork and clone the wedbsite code and upload changes when done.
-Live site
+
+Installation and Setup Instructions
+
+Clone down this repository. You will need node and npm installed globally on your machine.
+Installation
+
+Run either npm install or yarn in project root directory and client folder to build all dependencies.
+Firebase config
+
+To Visit App:
+
+localhost:3000
+
 
 Authors
 
