@@ -25,7 +25,7 @@ function Header() {
     <header className="header">
       <nav className="nav">
         <Link to={"/"} className="logo">
-        furniture store
+        3LA Store
         </Link>
           <div className="icon_Sopping_box">
           <Link to={"/basket"} className="shoppe_icon_box">

@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  background-color: #8fc700;
+  background-color: #494e3a;
   position: fixed;
   top: 0;
   left: 0;
@@ -75,13 +75,6 @@
 .logo {
   color: #fff;
   font-size: 20px;
-}
-
-.search_header {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 @keyframes tada {

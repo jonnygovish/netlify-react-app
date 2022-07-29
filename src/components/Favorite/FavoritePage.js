@@ -13,7 +13,7 @@ export default function FavoritePage() {
     <>
       <div className="favorite_container_linkBar">
         <div className="favorite_linkBar">
-          <span>Discount Intrest</span>
+          <span>My Favourites</span>
           <Link className="favorite_backLink" to={"/"}>
             <HiArrowRight />
             Products Page
@@ -44,7 +44,7 @@ export default function FavoritePage() {
               src="images/empty_favorite.svg"
               alt=""
             />
-            <span className="favorite_empty_title">Discount Iterest</span>
+            <span className="favorite_empty_title">My Favourites</span>
           </div>
         )}
       </div>

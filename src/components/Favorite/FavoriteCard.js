@@ -17,8 +17,7 @@ export default function FavoriteCard(props) {
       </Link>
       <button
         onClick={() => dispath({ type: "ADD_FAVORITE", payload: props.id })}
-        className="favorite_button"
-      >
+        className="favorite_button">
         Delete
       </button>
     </div>
