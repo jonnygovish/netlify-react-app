@@ -1,8 +1,6 @@
 @font-face {
   font-family: "Bubblegum Sans";
-  src: local("Bubblegum Sans"),
-  url("./fonts/"BubblegumSans-Regular.ttf")
-  formart("truetype");
+  src: local("Bubblegum Sans"),url("./font/BubblegumSans-Regular.ttf")format("truetype");
 }
 
 * {
