@@ -158,8 +158,8 @@ const reduce = (state, action) => {
   }
 };
 
-export const ProductContext = createContext();
-export const ProductDispath = createContext();
+const ProductContext = createContext();
+const ProductDispath = createContext();
 
 export default function ContextProvider({ children }) {
   const [state, dispath] = useReducer(reduce, initialState);
