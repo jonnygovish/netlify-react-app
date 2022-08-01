@@ -1,6 +1,8 @@
 @font-face {
-  font-family: Georgia, serif;
-  src: url(./../public/font/iranyekanwebregular.e31c09af.woff2);
+  font-family: "Bubblegum Sans";
+  src: local("Bubblegum Sans"),
+  url("./fonts/"BubblegumSans-Regular.ttf")
+  formart("truetype");
 }
 
 * {
