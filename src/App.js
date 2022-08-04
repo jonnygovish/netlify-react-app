@@ -1,5 +1,4 @@
 import { Navigate, useRoutes } from 'react-router-dom';
-import Basket from './components/Basket/Basket';
 import ContextFilter from './components/Context/ContextFilter';
 import ContextProvider from './components/Context/ContextProvider';
 import Details from './components/Details/Details';
@@ -13,7 +12,6 @@ function App() {
     { path: '/', element: <Products /> },
     { path: '/:id', element: <Details /> },
     { path: '/favorite', element: <FavoritePage /> },
-    { path: '/basket', element: <Basket /> },
     { path: '*', element: <Navigate to={'/'} /> },
   ])
   return (

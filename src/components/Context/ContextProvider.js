@@ -1,6 +1,5 @@
 import React, { createContext, useReducer } from "react";
 import allProducts from "../../Data";
-import offerCode from "../../Offer";
 import { sendPrice } from "../../Offer";
 
 const initialState = {
@@ -22,8 +21,8 @@ const sumPrice = (items, isOffer) => {
   }, 0);
 
   if (isOffer) {
-    const offerPrice = (totalPrice * offerCode.disCount) / 100;
-    const totalPriceAfterOffer = totalPrice - offerPrice;
+    const offerPrice = totalPrice;
+    const totalPriceAfterOffer = totalPrice;
 
     return {
       totalPrice,
@@ -141,20 +140,6 @@ const reduce = (state, action) => {
         ...state
       };
     }
-    case "OFFER_CODE": {
-      if (offerCode.code === action.payload) {
-        state.isEnterOfferCode = true;
-        state.offerMessage = "Discount Applied";
-      } else {
-        state.offerMessage = "The entered code is not valid";
-      }
-      return {
-        ...state,
-        ...sumPrice(state.basket, state.isEnterOfferCode)
-      };
-    }
-    default:
-      return state;
   }
 };
 
