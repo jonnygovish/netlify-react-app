@@ -1,4 +1,3 @@
-import React from 'react';
 import { Navigate, useRoutes } from 'react-router-dom';
 import Basket from './components/Basket/Basket';
 import ContextFilter from './components/Context/ContextFilter';

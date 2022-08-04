@@ -24,7 +24,7 @@ Feature
 - Show Number of products In Badge
 - calculation Total Price
 
-Find link to the live site here  https://mellifluous-rolypoly-020486.netlify.app/
+Find link to the live site here  https://github.com/AlnOo/3LA-Furniture-Shop
 Project screen shots: ![home page!](public/images/Snapshot.jpeg)
 Project screen shots: ![home page!](public/images/snapshot2.jpeg)
 

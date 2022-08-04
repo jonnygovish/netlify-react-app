@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Bubblegum Sans";
-  src: local("Bubblegum Sans"),url("./font/BubblegumSans-Regular.ttf")format("truetype");
+  font-family: Yekan;
+  src: url(./../public/font/iranyekanwebregular.e31c09af.woff2);
 }
 
 * {
